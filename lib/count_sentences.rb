@@ -20,7 +20,7 @@ class String
   def count_sentences
 
 #if question? | exclamation? | sentence?
-  self.split(/[?.!]/).length.chop
+  self.chop.split(/[?.!]/).length
 #else
 #  self.length
 #end
