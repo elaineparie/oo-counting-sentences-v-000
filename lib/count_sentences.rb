@@ -19,7 +19,8 @@ class String
 
   def count_sentences
 
-  self.chomp.split(/?|!|\./).length
+if question? | exclamation? | sentence?
+  self.chomp.split.length
 
 end
 
