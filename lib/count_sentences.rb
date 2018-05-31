@@ -19,11 +19,11 @@ class String
 
   def count_sentences
 
-if question? | exclamation? | sentence?
-  self.chomp.split.length
-else
-  self.length
-end
+#if question? | exclamation? | sentence?
+  self.split(/[?.!]/).length
+#else
+#  self.length
+#end
 end
 
 
