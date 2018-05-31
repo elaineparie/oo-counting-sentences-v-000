@@ -21,7 +21,7 @@ class String
 
 if question? | exclamation? | sentence?
   self.chomp.split.length
-
+end
 end
 
 
