@@ -19,7 +19,7 @@ class String
 
   def count_sentences
 
-  self.chomp.split(/\W\s/).length
+  self.chomp.split(/\W\s\w/).length
 
 end
 
